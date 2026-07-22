@@ -1,0 +1,154 @@
+# ---------------------------------------
+# OS
+# ---------------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------------------------------------
+# Node
+# ---------------------------------------
+
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------
+# Build output
+# ---------------------------------------
+
+dist/
+build/
+coverage/
+out/
+
+# Next.js
+.next/
+
+# Vite
+vite.svg
+
+# ---------------------------------------
+# Environment files
+# ---------------------------------------
+
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Keep example env files
+!.env.example
+
+# ---------------------------------------
+# TypeScript
+# ---------------------------------------
+
+*.tsbuildinfo
+
+# ---------------------------------------
+# ASP.NET Core
+# ---------------------------------------
+
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# Publish output
+publish/
+
+# Test Results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# EF Core local database
+*.mdf
+*.ldf
+
+appsettings.Development.json
+
+# ---------------------------------------
+# Logs
+# ---------------------------------------
+
+logs/
+*.log
+
+# ---------------------------------------
+# Temporary files
+# ---------------------------------------
+
+tmp/
+temp/
+*.tmp
+
+# ---------------------------------------
+# Docker
+# ---------------------------------------
+
+docker-compose.override.yml
+
+# ---------------------------------------
+# Misc
+# ---------------------------------------
+
+.cache/
+.eslintcache
+.stylelintcache
+
+# ---------------------------------------
+# Generated files
+# ---------------------------------------
+
+*.generated.cs
+
+# ---------------------------------------
+# From Vite's .gitignore
+# ---------------------------------------
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
