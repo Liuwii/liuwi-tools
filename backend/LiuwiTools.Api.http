@@ -1,6 +1,6 @@
-@LiuwiTools.Api_HostAddress = http://localhost:5015
+@LiuwiTools.Api_HostAddress = http://localhost:5015/api
 
-GET {{LiuwiTools.Api_HostAddress}}/weatherforecast/
+GET {{LiuwiTools.Api_HostAddress}}/weightlossjournal/
 Accept: application/json
 
 ###
